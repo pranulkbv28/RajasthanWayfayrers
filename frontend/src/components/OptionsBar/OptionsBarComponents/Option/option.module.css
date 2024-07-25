@@ -1,0 +1,21 @@
+.svgContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    /* justify-content: center; */
+    flex: 1;
+}
+
+.svgContainer>img {
+    transition: all 0.3s ease-in-out;
+}
+
+.svgContainer:hover>img {
+    transform: scale(1.1);
+}
+
+.svgContainer>p {
+    font-size: 15px;
+    text-align: center;
+}

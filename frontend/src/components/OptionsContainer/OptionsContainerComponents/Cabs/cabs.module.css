@@ -1,0 +1,18 @@
+.cabImageContainer {
+    overflow: hidden;
+}
+
+.cabImageContainer>img {
+    /* height: 100%; */
+    /* width: 100%; */
+    width: 400px;
+    height: 300px;
+}
+
+.elementsContainer {
+    justify-content: space-between;
+}
+
+/* .elementsContainer>div {
+    flex: 1;
+} */

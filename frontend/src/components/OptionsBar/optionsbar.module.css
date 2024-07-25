@@ -1,0 +1,24 @@
+.body {
+    width: 70%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5f121acd;
+    padding: 4px 8px;
+    /* gap: 6px; */
+}
+
+.svgContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    /* justify-content: center; */
+    flex: 1;
+}
+
+.svgContainer>p {
+    font-size: 15px;
+    text-align: center;
+}

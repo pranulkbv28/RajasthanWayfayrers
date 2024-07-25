@@ -1,0 +1,73 @@
+.customRadioContainer {
+    position: relative;
+    flex: 1;
+}
+
+.customRadioContainer>input[type="radio"] {
+    display: none;
+}
+
+.customRadioContainer>label {
+    font-size: 24px;
+}
+
+.customRadioContainer>label::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: -15%;
+    width: 32px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+
+/* .customRadioContainer>label::after {
+    content: "";
+    position: absolute;
+    top: 11%;
+    left: -18.15%;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+} */
+
+/* .customRadioContainer::after>input[type="radio"]:checked {
+    content: "";
+    position: absolute;
+    top: 11%;
+    left: -18.15%;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+} */
+
+.customRadioContainer>input[type="radio"]:checked+label::after {
+    content: "";
+    position: absolute;
+    top: 22%;
+    left: -12.75%;
+    width: 20px;
+    height: 20px;
+    background-color: #daab55;
+    border-radius: 50%;
+}
+
+/* .customRadioContainer2>input[type="radio"]:checked+label::after {
+    content: "";
+    position: absolute;
+    top: 22%;
+    left: -12.75%;
+    width: 20px;
+    height: 20px;
+    background-color: #daab55;
+    border-radius: 50%;
+} */
+
+.customRadioContainer>input[type="radio"]:checked+label::before {
+    border-color: #daab55;
+}

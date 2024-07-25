@@ -1,0 +1,15 @@
+.label,
+.input {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input {
+    color: #494949;
+    border-bottom: 1px solid black;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,23 @@
+.paragraghs {
+    color: #6C6C6C;
+    margin: 12px 0;
+}
+
+.listContainer>p {
+    position: relative;
+    padding-left: 20px;
+}
+
+.listContainer>p::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../../../assets//images/bulletSVG.svg");
+    left: 0;
+    top: 24%;
+    height: 14px;
+    width: 14px;
+}
+
+.readMoreBtn:hover {
+    transform: scale(1.1);
+}

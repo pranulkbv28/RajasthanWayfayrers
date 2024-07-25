@@ -1,0 +1,13 @@
+.body>form>div>div:last-child,
+.body>form>div>div:nth-child(4),
+.body>form>div>div:nth-child(2) {
+    padding-left: 42px;
+}
+
+.btnContainer>button {
+    transition: all 0.2s ease-in-out;
+}
+
+.btnContainer>button:hover {
+    transform: scale(1.05);
+}

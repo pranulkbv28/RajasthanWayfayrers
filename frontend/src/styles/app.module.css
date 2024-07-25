@@ -1,0 +1,23 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/mainBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .body>div {
+    flex: 1;
+} */
+
+.body>div:nth-child(2) {
+    overflow: hidden;
+}
+
+.secondHeroContainer{
+    height: 100vh; 
+    width: 100%;
+    background-color: white;
+    padding: 120px;
+}
